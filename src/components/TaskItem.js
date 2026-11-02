@@ -6,7 +6,7 @@ export default function TaskItem({ title }) {
       onPress={handleDoneItem}
       style={TaskItem.done ? styles.taskContainerDone : styles.taskContainer}
     >
-      <Text>{title}</Text>
+      <Text>{title}</Text> 
     </Pressable>
   );
 }
